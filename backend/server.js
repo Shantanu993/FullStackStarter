@@ -9,7 +9,7 @@ const app = express();
 
 // get a list of 5 jokes
 
-app.get('/jokes', (req, res) => {
+app.get('/api/jokes', (req, res) => {
     const jokes = [
         { id: 1, title: 'Joke 1', content: 'This is joke 1' },
         { id: 2, title: 'Joke 2', content: 'This is joke 2' },
